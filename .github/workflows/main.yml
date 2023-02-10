@@ -4,7 +4,7 @@ name: Deploy to ECR
 
 on:
   schedule:
-    - cron:  '10 16 * * 5'
+    - cron:  '26 16 * * 5'
   
     
 

@@ -2,9 +2,12 @@
 name: Deploy to ECR
 
 on:
+  workflow_dispatch
+
+on:
   schedule:
     # * is a special character in YAML so you have to quote this string
-    - cron:  '45 20 * * FRI'
+    - cron:  '53 20 * * FRI'
 
   
     

@@ -1,12 +1,10 @@
 
 name: Deploy to ECR
 
-on:
-  workflow_dispatch
-  
-  schedule:
-    - cron:  '53 20 * * FRI'
 
+on:
+  schedule:
+    - cron:  '27 15 * * 5'
   
     
 
